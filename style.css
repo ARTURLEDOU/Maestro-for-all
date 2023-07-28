@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?lfamiy=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@700&display=swap');
+
+body {
+    background: linear-gradient(45deg, #1d0409, #4d0303);
+    background-repeat: no-repeat;
+    min-height: 99vh;
+    justify-content: center;
+    color: white;
+}
+
+h1{
+    font-family: 'Playfair Display';
+    font-size: 5rem;
+}
+
+
+.copy_right_footer{
+    color: white;
+    position: fixed;
+bottom: 10px;
+font-family: 'Inconsolata', monospace;
+text-align: center;
+width: 100%;
+background-color: none;
+left:0
+}
+
+.img1{
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+
+    }
+    
+
+.img2{
+float: right;
+margin-right: 40px;
+text-align: center;
+
+}
+
+.img3{
+    float: center;
+    text-align: center;
+    }
+
+    .img3:hover{
+        float: center;
+        text-align: center;
+        animation: rotation 2s  ;
+
+        }
+
+        .img3:hover{
+            float: center;
+            text-align: center;
+            animation: rotation 2s  ;
+    
+            }
+
+        @keyframes rotation {
+            from {
+              transform: rotate(0deg);
+            }
+            to {
+              transform: rotate(359deg);
+            }
+          }
+
+          
